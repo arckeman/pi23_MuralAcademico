@@ -20,6 +20,25 @@ body {
     padding: 0;
     color:black ;
 }
+header
+    {
+    width:%;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    transition: 0.5s linear;
+    border-style: solid;
+    border-color: green;
+    border-bottom-width: 0.5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    }
 
 
 .page {
@@ -28,7 +47,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 100%;
+    width:100%;
     height: 100vh;
     background-color:#F5F5F5;
 }
