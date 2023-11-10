@@ -31,7 +31,7 @@
 
     header
     {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
     top: 0;
     right: 0;
@@ -42,7 +42,7 @@
     padding: 10px 15px;
     transition: 0.5s linear;
     border-style: solid;
-    border-color:green;
+    border-color: green;
     border-bottom-width: 0.5px;
     border-top-width: 0px;
     border-right-width: 0px;
@@ -107,9 +107,13 @@
 
 
                 <li>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">&#10151;</button>
+                    <form action="" method="post">
+                       
+                        <div class="busca">  
+                          <input type="search" id="busca" placeholder="Buscar..." name="q">
+                          <button type="submit">OK</button>
+                        </div>
+                     
                       </form>
                 </li>
             </ul>
@@ -131,7 +135,7 @@
 
 
         <div class="imagem">
-        <img src="fotosdosite/fotodoif.jpg" width="100%" height="90%" alt="IFRN campus canguaretama">
+        <img src="https://portal.ifrn.edu.br/media/images/35825_Nota_Informativa_do_Campus_Canguaretama.width-500.jpg" width="100%" height="90%" alt="IFRN campus canguaretama">
         </div>
 
 
@@ -173,6 +177,9 @@
                         </div>
                     </div>
 
+
+
+
                    <div class="box">
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
@@ -182,12 +189,21 @@
                                 <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
                               </svg></i></span>
 
+
+
+
                             <div class="mais">
                             <a href="">Saiba mais...</a>
                             </div>
 
+
+
+
                         </div>
                     </div>
+
+
+
 
                     <div class="box">
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
@@ -198,15 +214,23 @@
                                 <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
                               </svg></i></span>
 
+
+
+
                             <div class="mais">
                             <a href="">Saiba mais...</a>
                             </div>
+
+
+
 
                         </div>
                     </div>
 
 
-                   <div class="box">
+
+
+                    <div class="box">
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                             <br/>
@@ -227,6 +251,9 @@
 
                         </div>
                     </div>
+
+
+
 
                     <div class="box">
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
@@ -244,21 +271,8 @@
                             <a href="">Saiba mais...</a>
                          </div>
 
-                        </div>
-                    </div>
 
-                    <div class="box">
-                        <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
-                        <div class="content">
-                            <br/>
-                            <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
-                                <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
-                                <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
-                              </svg></i></span>
 
-                            <div class="mais">
-                            <a href="">Saiba mais...</a>
-                            </div>
 
                         </div>
                     </div>
@@ -273,24 +287,104 @@
                                 <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
                               </svg></i></span>
 
+
+
+
                             <div class="mais">
                             <a href="">Saiba mais...</a>
                             </div>
+
+
+
 
                         </div>
                     </div>
 
 
-     </div>
+                    <div class="box">
+                        <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
+                        <div class="content">
+                            <br/>
+                            <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+                                <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
+                                <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
+                              </svg></i></span>
 
-<!--Rodapé-->
-    <footer>
 
 
-        <p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+
+                            <div class="mais">
+                            <a href="">Saiba mais...</a>
+                            </div>
 
 
-    </footer>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="box">
+                        <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
+                        <div class="content">
+                            <br/>
+                            <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+                                <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
+                                <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
+                              </svg></i></span>
+   
+   
+                            <div class="mais">
+                            <a href="">Saiba mais...</a>
+                            </div>
+   
+   
+                        </div>
+                    </div>
+   
+                <div class="box">
+                    <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
+                    <div class="content">
+                        <br/>
+                        <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+                            <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
+                            <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
+                          </svg></i></span>
+   
+   
+                        <div class="mais">
+                        <a href="">Saiba mais...</a>
+                        </div>
+   
+   
+                    </div>
+                </div>
+
+
+                </div>
+
+                <div class="campus">
+                    <div class="IFRN">
+                        <img src="fotosdosite/ifrn-removebg-preview.png" alt="Logo do IFRN"/>
+                    </div> 
+                    <div class="mapa">
+                        <img src="fotosdosite/canguaretama.png" alt="Mapa do RN"/>
+                    </div>
+                    <div class="Lugar">
+                        <h5>Campus Canguaretama</h5>
+                        <p>Bairro: Areia Branca, Canguaretama - RN</p>
+                        <p>CEP:59190-000</p>
+                        <p>Telefone:(84) 4005-4114</p>
+                    </div> 
+                </div>
+
 </div>  
+
+<footer>
+
+<p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+
+</footer>
+
 </body>
 </html>
