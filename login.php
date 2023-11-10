@@ -11,13 +11,6 @@
     <style media="screen" >
 
     <link rel="stylesheet" href="style.css"/>
-      *,
-*:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 body{
     background-color:#FAF0E6;
    
@@ -30,30 +23,14 @@ body{
     left: 50%;
     top: 50%;
 }
-.shape:first-child{
-    background: linear-gradient(
-        #1845ad,
-        #23a2f6
-    );
-    left: -80px;
-    top: -80px;
-}
-.shape:last-child{
-    background: linear-gradient(
-        to right,
-        #ff512f,
-        #f09819
-    );
-    right: -30px;
-    bottom: -80px;
-}
+
 form{
-    height: 600px;
-    width: 400px;
+
+    width: 40%;
     background-color:#D3D3D3;
-    position: absolute;
+    position:absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
+    top: 20px;
     left: 50%;
     border-radius: 40px;
     backdrop-filter: blur(10px);
@@ -118,7 +95,7 @@ button{
   width: 150px;
   border-radius: 30px;
   padding: 5px 10px 10px 5px;
-  background-color:#778899;
+  background-color:#C0C0C0;
   color: #eaf0fb;
   text-align: center;
 }
@@ -147,6 +124,10 @@ button{
 .logar{
     margin-top:24px;
     text-align: center;
+}
+.rodape{
+    text-align:center;
+
 }
 
 
@@ -217,6 +198,14 @@ button{
           <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
           <div class="go"><a class="fab fa-google"></a>  Google</div>
         </div>
+  
     </form>
+    <div class="rodape"> <footer>
+
+
+<p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+
+
+</footer></div>
 </body>
 </html>
