@@ -43,27 +43,6 @@
     border-left-width: 0px;
     }
 
-
-form{
-width: 40%;
-background-color:#D3D3D3;
-position:absolute;
-transform: translate(-50%,-50%);
-top: 20px;
-left: 50%;
-border-radius: 40px;
-backdrop-filter: blur(10px);
-border: 2px solid rgba(255,255,255,0.1);
-box-shadow: 0 0 40px rgba(8,7,16,0.6);
-padding: 50px 35px;
-}
-form *{
-    font-family: 'Poppins',sans-serif;
-    color:black;
-    letter-spacing: 0.5px;
-    outline:none;
-    border:;
-}
 label{
     display: block;
     margin-top: 30px;
@@ -171,7 +150,7 @@ label{
         <div class="form-floating mb-3">
             <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
             <label for="floatingEmptyPlaintextInput">Essas configuações se aplicam às notificações que você recebe por e-mail.</label>
-            <div class="solicitar">Permitir notificações por e-mail
+            <div class="solicitar"><h3>Permitir notificações por e-mail</h3>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">On</label>
@@ -187,7 +166,9 @@ label{
 
     <!--Rodapé-->
     <footer>
+
         <p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+
     </footer>
 </body>
 </html>
