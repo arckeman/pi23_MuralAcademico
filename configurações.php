@@ -150,7 +150,7 @@ label{
         <div class="form-floating mb-3">
             <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
             <label for="floatingEmptyPlaintextInput">Essas configuações se aplicam às notificações que você recebe por e-mail.</label>
-            <div class="solicitar"><h3>Permitir notificações por e-mail</h3>
+            <h3>Permitir notificações por e-mail</h3>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                     <label class="form-check-label" for="inlineRadio1">On</label>
@@ -159,7 +159,6 @@ label{
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                     <label class="form-check-label" for="inlineRadio2">Off</label>
                 </div>
-            </div>
         </div>
 
     </form>
