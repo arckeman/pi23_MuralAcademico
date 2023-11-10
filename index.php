@@ -9,7 +9,7 @@
 
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" style media="screen" href="style.css"/>
    
    
     <title>anuncios</title>
