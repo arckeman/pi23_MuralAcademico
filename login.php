@@ -1,144 +1,146 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <!-- Design by foolishdeveloper.com -->
-    <title>Glassmorphism login Form Tutorial in html css</title>
- 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-    <!--Stylesheet-->
-    <style media="screen" >
-
-    <link rel="stylesheet" href="style.css"/>
-body{
-    background-color:#FAF0E6;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
    
-}
-.background{
-    width: 430px;
-    height: 520px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-}
-
-form{
-
-    width: 40%;
-    background-color:#D3D3D3;
-    position:absolute;
-    transform: translate(-50%,-50%);
-    top: 20px;
-    left: 50%;
-    border-radius: 40px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
-}
-form *{
-    font-family: 'Poppins',sans-serif;
-    color:black;
-    letter-spacing: 0.5px;
-    outline:none;
-    border:;
-}
-form h3{
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 42px;
-    text-align: center;
-}
-
-
-
-
-label{
-    display: block;
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 500;
-}
-input{
-    display: block;
-    height: 50px;
-    width: 100%;
-    background-color:gray);
-    border-radius: 30px;
-    padding: 0 10px;
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 300;
-}
-::placeholder{
-    color:gray;
-}
-button{
-    margin-top: 50px;
-    width: 100%;
-    background-color:black;
-    color: white;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 30px;
-    cursor: pointer;
-}
-.social{
-  margin-top: 30px;
-  display: flex;
-}
-.social div{
-  background: red;
-  width: 150px;
-  border-radius: 30px;
-  padding: 5px 10px 10px 5px;
-  background-color:#C0C0C0;
-  color: #eaf0fb;
-  text-align: center;
-}
-.social div:hover{
-  background-color: rgba(255,255,255,0.47);
-}
-.social .fb{
-  margin-left: 25px;
-  margin-right:15px;
-  color:#4169E1;
-}
-.social .go{
-  margin-left: 25px;
-  margin-right:15px;
-  color:#DC143C;
-}
-
-.social i{
-  margin-right: 4px;
-  color:#4169E1;
-}
-.social a{
-  margin-right: 4px;
-  color:#DC143C;
-}
-.logar{
-    margin-top:24px;
-    text-align: center;
-}
-.rodape{
-    text-align:center;
-
-}
-
-
-
-
-    </style>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:black ;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#F5F5F5;
+}
+
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+
+.areaLogin img {
+    width: 420px;
+}
+
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+
+
+.formLogin input:focus {
+    border: 1px solid rgb(0,63,0);
+}
+
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(0,63,0);
+}
+
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+
+.formLogin a:hover {
+    color:rgb(0,63,0);
+}
+
+
+.btn {
+    background-color:rgb(0,63,0);
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+
+}
+
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color:rgb(0,63,0);
+
+
+}
+</style>
 <body>
-<div class="background">
 <header>
+       
+       <a href="https://portal.ifrn.edu.br/"><img src="fotosdosite/logoif-removebg-preview.png" width="40%"></a>
+  
+
+
+   <div class="menubaixo">
+   <input type="checkbox" id="chec">
+   <label for="chec">
+       <i class="bi bi-list"><svg xmlns="http://www.w3.org/2000/svg" width="45px" height="45px" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+           <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+         </svg></i>
+   </label>
 
 
    <nav>
@@ -164,48 +166,38 @@ button{
                    <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
                  </svg></i>   Configurações</a>
            </li>
+
+
+           <li>
+               <form class="d-flex" role="search">
+                   <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                   <button class="btn btn-outline-success" type="submit">&#10151;</button>
+                 </form>
+           </li>
+       </ul>
    </nav>
    </div>
 
 
    </nav>    
    </header>
+   
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <h1>Login</h1>
 
-        <div class="shape"></div>
-        <div class="shape"></div>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite seu e-mail" />
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit" value="Acessar" class="btn" />
+        </form>
     </div>
-    <form>
-        <h3>LOGIN</h3>
-
-
-
-
-        <label for="username">USUÁRIO</label>
-        <input type="text" placeholder="@email.com" id="username">
-
-
-
-
-        <label for="password">SENHA</label>
-        <input type="password" placeholder="senha" id="password">
-
-
-
-
-        <button>ENTRAR</button>
-        <div class="logar"> <p>LOGAR COM</p></div>
-        <div class="social">
-          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
-          <div class="go"><a class="fab fa-google"></a>  Google</div>
-        </div>
   
-    </form>
-    <div class="rodape"> <footer>
+    <footer>
+    <p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+    </footer>
 
-
-<p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
-
-
-</footer></div>
 </body>
 </html>
