@@ -148,7 +148,7 @@ label{
         <h3>NOTIFICAÇÕES</h3>
         <label>E-MAIL</label>
         <div class="form-floating mb-3">
-            <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
+            <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="@gmail.com">
             <label for="floatingEmptyPlaintextInput">Essas configuações se aplicam às notificações que você recebe por e-mail.</label>
             <h3>Permitir notificações por e-mail</h3>
                 <div class="form-check form-check-inline">
