@@ -3,27 +3,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<<<<<<< HEAD
-  <!-- Design by foolishdeveloper.com -->
-    <title>Glassmorphism login Form Tutorial in html css</title>
+    <title>Página de autenticação</title>
  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
     <!--Stylesheet-->
     <style media="screen" >
- 
-    <link rel="stylesheet" href="style.css"/>
-body{
-    background-color:#FAF0E6;
-=======
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
->>>>>>> a90e866c0201ebf3275f079bf8ecca96d53c4dd3
-   
+    <link rel="stylesheet" href="style.css">  
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -160,8 +151,27 @@ header
 
 
 }
+footer
+{    
+  border-style: solid;
+  border-color: green;
+  border-top-width: 0.5px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  padding:20px;
+  background-color: rgb(0, 63, 0);
+}
+footer p
+{
+  text-align: center;
+  color:white;
+  background-color:rgb(0, 63, 0) ;
+}
+
 </style>
 <body>
+
 <header>
        
        <a href="https://portal.ifrn.edu.br/"><img src="fotosdosite/logoif-removebg-preview.png" width="40%"></a>
@@ -203,9 +213,12 @@ header
 
 
            <li>
-               <form class="d-flex" role="search">
-                   <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
-                   <button class="btn btn-outline-success" type="submit">&#10151;</button>
+               <form action="" method="post">
+                  
+                   <div class="busca">  
+                     <input type="search" id="busca" placeholder="Buscar..." name="q">
+                   </div>
+                
                  </form>
            </li>
        </ul>
@@ -229,7 +242,7 @@ header
         </form>
     </div>
   
-    <footer>
+    <footer >
     <p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
     </footer>
 
