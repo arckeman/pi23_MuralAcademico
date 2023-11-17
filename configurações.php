@@ -9,7 +9,6 @@
     <title>Cadastro</title>
 
 <style>
-    *
     {
     font-family: 'Anton', sans-serif;
     color: black;
