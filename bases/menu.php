@@ -1,6 +1,6 @@
 <header>
        
-            <a href="https://portal.ifrn.edu.br/"><img src="src/img/logoif-removebg-preview.png" width="40%"></a>
+        <a href="https://portal.ifrn.edu.br/"><img src="src/img/logoif-removebg-preview.png" width="40%"></a>
        
 
 
