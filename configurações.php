@@ -3,21 +3,6 @@
 
 <?php include 'bases/head'
 
-/*<style>
-    *{
-    font-family: 'Anton', sans-serif;
-    color: black;
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-padding-top: 4rem;
-    scroll-behavior: smooth;
-    list-style: none;
-    text-decoration: none;
-    background-color:white;
-    }
-</style>*/
-
 ?>
 <body>
     
