@@ -13,6 +13,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" style media="screen" href="style.css"/>
     <title>Login</title>
 </head>
 <style>
@@ -208,9 +209,29 @@ input[type="checkbox"]:checked~nav{
   color: var(--bg-color);
   transition: 0.2s all linear;
 }
-header
+.mais
+{
+  text-align:right;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+*
     {
-    width: 75%;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    background-color:white;
+    }
+
+    header
+    {
+    width: 85%;
     margin: 0 auto;
     top: 0;
     right: 0;
@@ -221,12 +242,23 @@ header
     padding: 10px 15px;
     transition: 0.5s linear;
     border-style: solid;
-    border-color: green;
+    border-color:green;
     border-bottom-width: 0.5px;
     border-top-width: 0px;
     border-right-width: 0px;
     border-left-width: 0px;
-}
+    }
+    
+    :root
+    {  
+    /*Box Sandow*/
+    --box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
+    }
+   
+    .mural{
+        text-align: center;
+        padding-top: 20px;
+  }
 .page {
     display: flex;
     
@@ -331,6 +363,7 @@ header
 
 
 }
+
 footer
 {    
   border-style: solid;
@@ -348,6 +381,7 @@ footer p
   color:white;
   background-color:rgb(0, 63, 0) ;
 }
+
 
 </style>
 <body>
