@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="src/css/style.css"/>
     <title>Cadastro</title>
 
 <style>
-    *
-    {
+    *{
     font-family: 'Anton', sans-serif;
     color: black;
     margin:0;
@@ -23,41 +22,15 @@
     background-color:white;
     }
 
-    header
-    {
-    width: 85%;
-    margin: 0 auto;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-    transition: 0.5s linear;
-    border-style: solid;
-    border-color:green;
-    border-bottom-width: 0.5px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    }
 </style>
 </head>
 <body>
     
-<!--Cabeçalho-->
-<header>
-    <div class="menubaixo">
-            <input type="checkbox" id="chec">
-            <label for="chec">
-                <i class="bi bi-list"><svg xmlns="http://www.w3.org/2000/svg" width="45px" height="45px" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                </svg></i>
-            </label>
+<!--menu-->
 
-    </div>
-</header>
+<?php include 'bases/menu.php' ?>
+
+
 
 <div class="principal">
     <div class="informacoes">
@@ -66,20 +39,59 @@
     </div>
 </div>
 
+<!--Fora da Tela-->
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">icon menu</button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row">
+                <div class="col-4">
+                    <div id="list-example" class="list-group">
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">Início</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Salvos</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Configurações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Form-->
 <form>
-        <label for="username">PERFIL</label>
-        <input type="text" >
+        <label for="perfil">PERFIL</label>
+        <div class="img">
+            <img>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" readonly class="form-control-plaintext" id="floatingPlaintextInput" placeholder="@gmail.com" value="@gmail.com">
+            <label for="floatingPlaintextInput">FULANO DE TAL</label>
+        </div>
 
         <h3>NOTIFICAÇÕES</h3>
         <label>E-MAIL</label>
-        <input type="text">
+        <div class="form-floating mb-3">
+            <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="@gmail.com">
+            <label for="floatingEmptyPlaintextInput">Essas configuações se aplicam às notificações que você recebe por e-mail.</label>
+            <h3>Permitir notificações por e-mail</h3>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">On</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Off</label>
+                </div>
+        </div>
 
     </form>
 
-    <footer>
+<!--Rodapé-->
 
-        <p>Copyright © 2023 | Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
-
-    </footer>
+<?php include 'bases/rodape.php' ?>
+    
 </body>
 </html>
