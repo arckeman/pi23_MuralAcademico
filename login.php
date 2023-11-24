@@ -15,7 +15,7 @@
 
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family:'Times, Times New Roman, serif';
     margin: 0;
     padding: 0;
     color:black ;
