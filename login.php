@@ -1,80 +1,4 @@
 
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="main.css">
-    
-</head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    color:black ;
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-color: RGB(169,169,169);
-}
-
-.formLogin {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 40px;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
-    gap: 5px
-}
-
-.areaLogin img {
-    width: 420px;
-}
-
-.formLogin h1 {
-    padding: 0;
-    margin: 0;
-    font-weight: 500;
-    font-size: 2.3em;
-}
-
-.formLogin p {
-    display: inline-block;
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 25px;
-}
-
-.formLogin input {
-    padding: 15px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    border-radius: 4px;
-    transition: all linear 160ms;
-    outline: none;
-}
-
-
-.formLogin input:focus {
-    border: 1px solid #f72585;
-}
-=======
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -97,7 +21,7 @@ body {
 
 
 body {
-    font-family:'Times, Times New Roman, serif';
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -397,20 +321,14 @@ input[type="checkbox"]:checked~nav{
     border: 1px solid rgb(0,63,0);
 }
 
->>>>>>> 7f1485c5f58f6e76ba10d5f45e71059d3b58321a
 
 .formLogin label {
     font-size: 14px;
     font-weight: 600;
-<<<<<<< HEAD
-}
-
-=======
     color:rgb(0,63,0);
 }
 
 
->>>>>>> 7f1485c5f58f6e76ba10d5f45e71059d3b58321a
 .formLogin a {
     display: inline-block;
     margin-bottom: 20px;
@@ -419,15 +337,6 @@ input[type="checkbox"]:checked~nav{
     transition: all linear 160ms;
 }
 
-<<<<<<< HEAD
-.formLogin a:hover {
-    color: #f72585;
-}
-
-.btn {
-    background-color: #f72585;
-    color: #fff;
-=======
 
 .formLogin a:hover {
     color:rgb(0,63,0);
@@ -437,7 +346,6 @@ input[type="checkbox"]:checked~nav{
 .btn {
     background-color:rgb(0,63,0);
     color:white;
->>>>>>> 7f1485c5f58f6e76ba10d5f45e71059d3b58321a
     font-size: 14px;
     font-weight: 600;
     border: none !important;
@@ -445,31 +353,6 @@ input[type="checkbox"]:checked~nav{
     cursor: pointer;
     margin: 0 !important;
 
-<<<<<<< HEAD
-}
-
-.btn:hover {
-    transform: scale(1.05);
-    background-color: #ff0676;
-
-}
-</style>
-<body>
-    
-    <div class="page">
-        <form method="POST" class="formLogin">
-            <h1>Login</h1>
-            <p>Digite os seus dados de acesso no campo abaixo.</p>
-            <label for="email">E-mail</label>
-            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
-            <label for="password">Senha</label>
-            <input type="password" placeholder="Digite seu e-mail" />
-            <a href="/">Esqueci minha senha</a>
-            <input type="submit" value="Acessar" class="btn" />
-        </form>
-    </div>
-    
-=======
 
 }
 
@@ -584,6 +467,5 @@ footer p
 
 </footer>
 
->>>>>>> 7f1485c5f58f6e76ba10d5f45e71059d3b58321a
 </body>
 </html>
