@@ -447,14 +447,14 @@ footer p
         </header>
    
     <div class="page">
-        <form method="POST" class="formLogin">
+        <form action="" method="POST" class="formLogin">
             <h1>Login</h1>
 
             <label for="email">E-mail</label>
             <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
             <label for="password">Senha</label>
             <input type="password" placeholder="Digite seu e-mail"  placeholder />
-            <a href="/">Esqueci minha senha</a>
+            <a href="alterar_senha.php">Esqueci minha senha</a>
             <input type="submit" value="Entrar" class="btn" />
         </form>
     </div>
