@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "bases/head.php"?>
-  
+  <head>
     <style type="text/css">
+
     .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -46,8 +46,9 @@ button {
     weight:bold;
   }
   </style>
-   
+</head>
 <body>
+    <?php include "bases/head.php"?>
     <?php include "bases/menu.php"?>
   <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
   <div class="container">
@@ -64,5 +65,7 @@ button {
 </div>
 </div>
     <?php include "bases/rodape.php"?>
+    
 </body>
+
 </html>
