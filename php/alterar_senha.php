@@ -1,15 +1,13 @@
 <?php
-   include("connect.php");
+   include("conexao.php");?>
 
-   $login = $_SESSION["login"];
 
-   $senha = $_POST['senha_atual'];
+<?php   $senha = $_POST['senha_atual'];
    $senha_nova = $_POST['senha_nova'];
    $confirme_senha = $_POST['confirme_senha'];
 
    $sql=mysql_query("select passe from utilizadores where login='$login' ");
-   $row= mysql_fetch_array($sql);
-   $senha_banco = $row['passe'];  
+   $row= mysql_fetch_array($sql);  
 
    if(($senha_nova=="") && ($confirme_senha=="") && ($senha_banco==""))
    {
