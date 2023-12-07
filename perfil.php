@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<?php include "bases/head.php"?>
+  
     <style type="text/css">
     .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -43,65 +45,14 @@ button {
     size:12px;
     weight:bold;
   }
-  cursor: pointer;
-  transition: all 0.25s ease;
-  &:hover {
-    color:white;
-    background: $green;
-  }
-  &:active {
-    //letter-spacing: 2px;
-    letter-spacing: 2px ;
-  }
-  &:after {
-    content:"SUBMIT";
-  }
-}
-.onclic {
-  width: 40px;
-  border-color:$gray;
-  border-width:3px;
-  font-size:0;
-  border-left-color:$green;
-  animation: rotating 2s 0.25s linear infinite;
-
-  &:after {
-    content:"";
-  }
-  &:hover {
-    color:$green;
-    background: white;
-  }
-}
-.validate {
-  font-size:13px;
-  color: white;
-  background: $green;
-  &:after {
-    font-family:'FontAwesome';
-    content:"\f00c";
-  }
-}
-
-@keyframes rotating {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-}
   </style>
-    </head>
-<?php include "bases/head.php"?>
-<?php include "src/css/style.css"?>
+   
 <body>
     <?php include "bases/menu.php"?>
   <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
   <div class="container">
     <img class="img1" src="https://cdn-icons-png.flaticon.com/256/3106/3106921.png" alt="Avatar" height="300px" width="300px">
-    <a href="#" class="button">Meus dados</a>
+   <button id="button">Meus dados</button>
 </div>
 </div>
 
