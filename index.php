@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'bases/head.php'?>
+<?php include 'bases/head.php' ?>
 
 <style>
     *
@@ -19,6 +19,7 @@
     }
       
 </style>
+
 <body>
 
 <!--Menu-->
@@ -27,7 +28,7 @@
 
 <!--Informação-->
 
-<div class="principal">
+<div class="principal1">
 
 
 
