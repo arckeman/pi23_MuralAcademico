@@ -32,6 +32,13 @@
   <!-- INCLUINDO CÓDIGO DE MENU COMUM A TODAS AS PÁGINAS -->
   <?php include 'bases/menu.php'; ?>
 
+<?php
+session_start();
+if(!isset($_SESSION["usuario"])){
+    header("location: login.php");
+    die();
+}
+?>
 
   <div class="container">
 
@@ -49,8 +56,7 @@
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px"alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Meus Dados</h5>
-                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        
                     </div>
                 </div>
             </a>
@@ -62,8 +68,7 @@
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px"alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Gerenciar Núcleos</h5>
-                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                       
                     </div>
                 </div>
             </a>
@@ -75,8 +80,7 @@
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px"alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Gerenciar Áreas</h5>
-                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        
                     </div>
                 </div>
             </a>
@@ -88,8 +92,7 @@
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Gerenciar Públicos</h5>
-                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                      
                     </div>
                 </div>
             </a>
@@ -101,8 +104,7 @@
                     <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center">Gerenciar Usuários</h5>
-                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        
                     </div>
                 </div>
             </a>

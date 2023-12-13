@@ -1,14 +1,15 @@
 <?php
-//https://www.w3schools.com/php/php_mysql_connect.asp
 
+function conectar()
+{
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "codigo_bd";
+$dbname = "bd_registro";
 //$port = 3306
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servidor, $usuario, $senha, $banco);
 
 // Check connection
 if ($conn->connect_error) {
@@ -16,7 +17,7 @@ if ($conn->connect_error) {
 }
 
 return $conn;
-
+}
 //echo "Connected successfully";
 
 function desconectar($conn){
