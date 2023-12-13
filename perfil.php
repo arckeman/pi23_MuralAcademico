@@ -1,100 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+    <title>Núcleos de Pesquisa</title>
+
+    <!-- INCLUINDO CÓDIGO DE HEAD COMUM A TODAS AS PÁGINAS -->
+    <?php include 'bases/head.php'; ?>
+
     <style type="text/css">
-.img1{
-  border-radius: 5px 5px 0 0;
-}
-
-}
-button {
-  outline:none;
-  height: 40px;
-  text-align: center;
-  width: 130px;
-  border-radius:40px;
-  background: #fff;
-  border: 2px solid $green;
-  color:$green;
-  letter-spacing:1px;
-  text-shadow:0;
-  font:{
-    size:12px;
-    weight:bold;
-  }
-  cursor: pointer;
-  transition: all 0.25s ease;
-  &:hover {
-    color:white;
-    background: $green;
-  }
-  &:active {
-    //letter-spacing: 2px;
-    letter-spacing: 2px ;
-  }
-  &:after {
-    content:"";
-  }
-}
-.onclic {
-  width: 40px;
-  border-color:$gray;
-  border-width:3px;
-  font-size:0;
-  border-left-color:$green;
-  animation: rotating 2s 0.25s linear infinite;
-
-  &:after {
-    content:"";
-  }
-  &:hover {
-    color:$green;
-    background: white;
-  }
-}
-.validate {
-  font-size:13px;
-  color: white;
-  background: $green;
-  &:after {
-    font-family:'FontAwesome';
-    content:"\f00c";
-  }
-}
-
-@keyframes rotating {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    .carousel-item{
+        height: 200px;
+    } 
+    div{
+      width: 100px;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    }
+    #card-body{
+      display: inline-grid;;
+    }
+    h4{
+      font-size:20px;
+    }
   </style>
+
 </head>
+
 <body>
-
-    <?php include "bases/head.php"?>
-
-    <?php include "bases/menu.php"?>
+  <!-- INCLUINDO CÓDIGO DE MENU COMUM A TODAS AS PÁGINAS -->
+  <?php include 'bases/menu.php'; ?>
 
 
-<div class="cont">
-    <img class="img1" src="https://cdn-icons-png.flaticon.com/256/3106/3106921.png" alt="Avatar" height="300px" width="300px">
-    <button class="button" id="button">Meus dados</button>
-</div>
-</div>
+  <div class="container">
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <h4 class="text-center">Página de Perfil</h4>
+        </div>
+    </div>
 
 
-<div class="container">
-  <img class="img1" src="https://cdn-icons-png.flaticon.com/256/33/33308.png" alt="Avatar" height="300px" width="300px">
-  <button class="button" id="button">Gerenciar usuários</button>
-</div>
-</div>
-</div>
-    
+    <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <a href="">
+                <div class="card" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px"alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Meus Dados</h5>
+                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+                </div>
+            </a>
+        </div>
 
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <a href="">
+                <div class="card" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px"alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Gerenciar Núcleos</h5>
+                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <a href="">
+                <div class="card" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px"alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Gerenciar Áreas</h5>
+                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <a href="">
+                <div class="card" style="width: 18rem;">
+                <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Gerenciar Públicos</h5>
+                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <a href="">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/18765757-icone-de-perfil-de-usuario-em-estilo-simples-ilustracao-em-avatar-membro-no-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana-vetor.jpg" width="100px" height="100px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Gerenciar Usuários</h5>
+                        <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+    </div>
+
+  </div>
+  
+<br/><br/>
+   <!-- INCLUINDO CÓDIGO DE RODAPÉ COMUM A TODAS AS PÁGINAS -->
+   <?php include 'bases/rodape.php'; ?>
 
 </body>
 
