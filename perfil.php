@@ -1,31 +1,47 @@
+<?php include 'sessao/verificar_autenticado.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Núcleos de Pesquisa</title>
+    <title>Perfil</title>
 
     <!-- INCLUINDO CÓDIGO DE HEAD COMUM A TODAS AS PÁGINAS -->
     <?php include 'bases/head.php'; ?>
+<style type="text/css">
+a{
+    color:black;
+}
+*{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    background-color:white;
+    }
+    .foto1{
+        text-align:left;;
+    }
+    .foto2{
+        text-align:center;;
+    }
+    .foto1{
+        text-align:left;;
+    }
+    .foto1{
+        text-align:left;;
+    }
+    .foto1{
+        text-align:left;;
+    }
+</style>
 
-    <style type="text/css">
-    .carousel-item{
-        height: 200px;
-    } 
-    div{
-      width: 100px;
-    height: 100px;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    }
-    #card-body{
-      display: inline-grid;;
-    }
-    h4{
-      font-size:20px;
-    }
-  </style>
-
+<link rel="stylesheet" type="text/css" href="perfil.css">
 </head>
 
 <body>
@@ -40,14 +56,27 @@ if(!isset($_SESSION["usuario"])){
 }
 ?>
 
-  <div class="container">
+  <div class="container mt-5">
 
-    <div class="row mt-4">
-        <div class="col-12">
-            <h4 class="text-center">Página de Perfil</h4>
+  <h2>Página de Perfil</h2>
+
+<div class="row">
+
+<div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="foto1">
+    <div class="card h-100">
+      <a href="p_meus_dados.php">
+        <img class="card-img-top"src="src/img/LOGIN.png" alt="" widht="200px" height="100px">
+        <div class="card-body">
+          <h4 class="card-title">
+            Meus Dados
         </div>
+      </a>
     </div>
+</div>
+  </div>
 
+<<<<<<< HEAD
 
     <div class="col-lg-4 col-md-6 col-12 mb-4">
         <div class="col-lg-4 col-md-6 col-12 mb-4">
@@ -111,11 +140,68 @@ if(!isset($_SESSION["usuario"])){
         </div>
 
 
+=======
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+  <div class="foto2">
+    <div class="card h-100">
+      <a href="curso_detalhes.html">
+        <img class="card-img-top" src="src/img/LOGIN.png" alt="" widht="200px" height="100px">
+        <div class="card-body">
+          <h4 class="card-title">
+            Gerenciar Núcleos
+        </div>
+      </a>
+>>>>>>> eb37c13c19889817c16859d4ec5d64f63c67f72f
     </div>
+  </div>
+</div>
+
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+  <div class="foto3">
+    <div class="card h-100">
+      <a href="p_areas.php">
+        <img class="card-img-top" src="src/img/LOGIN.png" alt="" widht="200px" height="100px">
+        <div class="card-body">
+          <h4 class="card-title">
+            Gerenciar Áreas
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+  <div class="foto4">
+    <div class="card h-100">
+      <a href="curso_detalhes.html">
+        <img class="card-img-top" src="src/img/LOGIN.png" alt="" widht="200px" height="100px">
+        <div class="card-body">
+          <h4 class="card-title">
+            Gerenciar Públicos
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+  <div class="foto5">
+    <div class="card h-100">
+      <a href="curso_detalhes.html">
+        <img class="card-img-top" src="src/img/LOGIN.png" alt="" widht="200px" height="100px">
+        <div class="card-body">
+          <h4 class="card-title">
+            Gerenciar Usuários
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 
   </div>
+  </div>
   
-<br/><br/>
+
    <!-- INCLUINDO CÓDIGO DE RODAPÉ COMUM A TODAS AS PÁGINAS -->
    <?php include 'bases/rodape.php'; ?>
 
