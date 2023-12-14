@@ -25,7 +25,6 @@ h2 {
   font-size:20px; 
   color:black;
   text-align: center;
-  background-color:#8FBC8F;
   display:inline-block;
 }
 
@@ -33,8 +32,10 @@ form{
     display:inline-block;
     flex-direction: column;
     justify-content: center;
-    border:4px solid #000000;
+    border:2px solid #000000;
     background-color:#DCDCDC;
+    margin:65px;
+    margin-left:0;
     
 }
 
@@ -44,20 +45,38 @@ form input {
     padding: 10px 25px;
     width: 50%;
     color:black;
+    
 }
 .botao{
-  background-color:#8FBC8F;
+  text-align: center;
+  color:white;
+  background-color:rgb(0, 63, 0) ;
+  font-weight: bold;
+  border-radius: 20px;
 }
 
+.texto p
+{
+  margin-top:50px;
+  text-align: center;
+}
+.imagem1{
+  margin-left:60px;
+  margin-top:90px;
+}
 
   </style>
 <body>
 <!--menu-->
 <?php include 'bases/menu.php' ?>
 <div class="container">
-<div class="login">
-    
+<div class="informacoes">
 
+<div class="imagem1">
+<img class="img-fluid rounded" src="src/img/fotodoif.jpg" width="300px" height="200px" alt="">
+</div>
+<div class="texto">
+<div class="login">
         <form action="php/bd_autenticação.php" method="post">
         <h2>Login de Autenticação</h2>
         <p>
@@ -72,13 +91,15 @@ form input {
          if (isset($_GET['erro'])) {
          echo "<p class='text-danger'>".$_GET['erro']."</p>";
          } ?>
-        <p><input class="botao" type="submit" value="Cadastrar"></p>
+        <p><input class="botao" type="submit" value="Entrar"></p>
         </form>
 
         </div>
         
         </div>
 </div>
+        </div>
+        </div>
         </div>
 <!--rodape-->
 <?php include 'bases/rodape.php' ?>
