@@ -26,9 +26,13 @@ h2{
 
 div{
   display: inline-block;
+  
 }
 img{
   margin:20px;
+}
+h4{
+  text-align:center;
 }
 
 </style>
@@ -53,11 +57,10 @@ img{
   <div class="foto1">
     <div class="card h-100">
       <a href="curso_detalhes.html">
-        <img class="card-img-top" src="src/img/perfil1.jpg" alt="" widht="200px" height="100px">
-        <div class="card">
-          <h4 class="card-title">
-            Meus Dados
-        </div>
+        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
+        
+          <h4 >Meus Dados</h4>
+        
       </a>
 
     </div>
@@ -68,11 +71,10 @@ img{
   <div class="foto2">
     <div class="card h-100">
       <a href="curso_detalhes.html">
-        <img class="card-img-top" src="src/img/perfil1.jpg" alt="" widht="200px" height="100px">
-        <div class="card-body">
-          <h4 class="card-title">
-            Gerenciar Núcleos
-        </div>
+        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
+      
+          <h4 >Gerenciar Núcleos</h4>
+        
       </a>
 
     </div>
@@ -83,11 +85,8 @@ img{
   <div class="foto3">
     <div class="card h-100">
       <a href="p_areas.php">
-        <img class="card-img-top" src="src/img/perfil1.jpg" alt="" widht="200px" height="100px">
-        <div class="card-body">
-          <h4 class="card-title">
-            Gerenciar Áreas
-        </div>
+        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
+        <h4>  Gerenciar Áreas</h4>
       </a>
     </div>
   </div>
@@ -97,11 +96,8 @@ img{
   <div class="foto4">
     <div class="card h-100">
       <a href="curso_detalhes.html">
-        <img class="card-img-top" src="src/img/perfil1.jpg" alt="" widht="200px" height="100px">
-        <div class="card-body">
-          <h4 class="card-title">
-            Gerenciar Públicos
-        </div>
+        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
+        <h4> Gerenciar Públicos</h4>
       </a>
     </div>
   </div>
@@ -111,11 +107,8 @@ img{
   <div class="foto5">
     <div class="card h-100">
       <a href="curso_detalhes.html">
-        <img class="card-img-top" src="src/img/perfil1.jpg" alt="" widht="200px" height="100px">
-        <div class="card-body">
-          <h4 class="card-title">
-            Gerenciar Usuários
-        </div>
+        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
+        <h4> Gerenciar Usuários</h4>
       </a>
     </div>
   </div>
