@@ -8,19 +8,19 @@
 <!--menu-->
 <?php include 'bases/menu.php' ?>
 
-<div class="cadastro1">
+<div class="principal1">
 
-        <div class="informacoes1">
+        <div class="informacoes">
 
-        <div class="imagem1">
+        <div class="imagem">
         <img class="img-fluid rounded" src="src/img/fotodoif.jpg" width="75%" height="60%" alt="">
         </div>
 
-        <div class="texto1">
+        <div class="texto">
         
         <h2>Cadastro de Usuário</h2>
 
-        <form action="php/bd_registro.php" method="post">
+        <form action="../php/bd_registro.php" method="post">
         <p>
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome">

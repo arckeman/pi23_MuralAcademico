@@ -1,315 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>Núcleos de Pesquisa</title>
+<!--head-->
+<?php include 'bases/head.php' ?>
+<style type="text/css">
+.login{
+  background:none;
+  text-align:center;
+  font-family:Times, Times New Roman, serif ;
+    color: black;
+    margin:70;
+    padding:10px;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    background-size:20px;
 
-  <?php include 'bases/head.php'; ?>
-
-  <style type="text/css">
-    .carousel-item{
-        height: 200px;
-    } 
-body {
-  font: $loginfonts;
-  color: $fontscolor;
-  background:white;
-}
-
-/*Login form style*/
-
-/* === Logo === */
-.logo {
-  background-position: center;
-  height: 60px;
-  width: 140px;
-  margin: 100px auto 30px auto;
-}
-
-/* === Form === */
-.form {
-  width: 100%;
-
-  .field {
-    position: relative;
-    margin: 0 50px;
-
-    i {
-      font-size: 18px;
-      left: 0px;
-      top: 0px;
-      position: absolute;
-      height: 44px;
-      width: 44px;
-      color: #f7f3eb;
-      background: #676056;
-      text-align: center;
-      line-height: 44px;
-      transition: all 0.3s ease-out;
-      pointer-events: none;
-    }
-  }
-}
-
-/* === Login styles === */
-.login {
-  position: relative;
-  margin: 100px auto;
-  width: 370px;
-  height: 315px;
-  background:#DCDCDC;
-  border-radius:5px;
-
-  &:before {
-    content: "";
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    bottom: -8px;
-    left: -8px;
-    z-index: -1;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-  }
-
-  h1 {
-    line-height: 55px;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    background: $headerbg;
-
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-  }
-
-  .submit {
-    text-align:left;
-  }
-  p {
-    &:first-child {
-      margin-top: 30px;
+   
     }
 
-    .remember {
-      float: left;
-
-      label {
-        color: #a7a599;
-        font-size: 12px;
-        cursor: pointer;
-      }
-    }
-
-    .forgot {
-      float: right;
-      margin-right: 50px;
-
-      a {
-        color: #a7a599;
-        font-size: 12px;
-        text-decoration: none;
-        font-style: italic;
-        transition: all 0.3s ease-out;
-
-        &:hover {
-          color: black;
-        }
-      }
-    }
-  }
-}
-
-/*input style*/
-/* === Input Form === */
-::-webkit-input-placeholder {
-  color: #ded9cf;
-  font-family: "Open Sans";
-}
-
-:-moz-placeholder {
-  color: #000000 !important;
-  font-family: "Open Sans";
-}
-
-.form input[type="text"],
-input[type="password"] {
-  font-family:Times, Times New Roman, serif;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 10px 15px 10px 55px;
-  position: relative;
-  width: 200px;
-  height: 24px;
-  border: none;
-  background:#228B22;
-  color:white;
-  transition: color 0.3s ease-out;
-}
-
-.form input[type="text"] {
-  margin-bottom: 15px;
-}
-
-.form input[type="text"]:hover ~ i,
-.form input[type="password"]:hover ~ i {
+h2 {
+  font-family:Times, Times New Roman, serif ; 
+  font-weight: 600; 
+  font-size:20px; 
   color:black;
-}
-
-.form input[type="text"]:focus ~ i,
-.form input[type="password"]:focus ~ i {
-  color: $iconhover;
-}
-
-.form input[type="text"]:focus,
-.form input[type="password"]:focus,
-.form button[type="submit"]:focus {
-  outline: none;
-}
-
-.form input[type="submit"] {
-  margin-top: 15px;
-  width: 270px;
   text-align: center;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  display:inline-block;
+}
+
+form{
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid #000000;
+    background-color:#DCDCDC;
+    margin:65px;
+    margin-left:0;
+}
+
+form input {
+   
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    color:black;
+    
+}
+.botao{
+  text-align: center;
+  color:white;
+  background-color:rgb(0, 63, 0) ;
   font-weight: bold;
-  padding: 12px 0;
-  letter-spacing: 0;
-  box-shadow: inset 0px 0px 0px 0px $buttonhover;
+  border-radius: 20px;
+}
+div.img{
+ 
+        display: inline-block;
+        font-size: 3vw;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+        float:right;
+        width: 100%;
+  margin-top:50px;
+  margin-left:50px;       
 
-  color:black;
-  background-color: $buttoncolor;
-  text-shadow: none;
-  text-transform: uppercase;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  margin-bottom: 20px;
-  -webkit-animation: shadowFadeOut 0.4s;
-  -moz-animation: shadowFadeOut 0.4s;
+}
+div.container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.form input[type="submit"]:hover,
-input[type="submit"]:focus {
-  color: #fff;
-  box-shadow: inset 0px 46px 0px 0px $buttonhover;
-  -webkit-animation: shadowFade 0.4s;
-  -moz-animation: shadowFade 0.4s;
-}
 
-/*keyframes for input animation*/
-
-@keyframes shadowFade {
-  0% {
-    box-shadow: inset 0px 0px 0px 0px $buttonhover;
-    color: #fff;
-  }
-  100% {
-    box-shadow: inset 0px 46px 0px 0px $buttonhover;
-    color: #fff;
-  }
-}
-
-@keyframes shadowFadeOut {
-  0% {
-    box-shadow: inset 0px 46px 0px 0px $buttonhover;
-    color: #fff;
-  }
-  100% {
-    box-shadow: inset 0px 0px 0px 0px $buttonhover;
-    color: #fff;
-  }
-}
-
-@-webkit-keyframes shadowFade {
-  0% {
-    box-shadow: inset 0px 0px 0px 0px $buttonhover;
-    color: #fff;
-  }
-  100% {
-    box-shadow: inset 0px 46px 0px 0px $buttonhover;
-    color: #fff;
-  }
-}
-
-@-webkit-keyframes shadowFadeOut {
-  0% {
-    box-shadow: inset 0px 46px 0px 0px $buttonhover;
-    color: #fff;
-  }
-  100% {
-    box-shadow: inset 0px 0px 0px 0px $buttonhover;
-    color: #fff;
-  }
-}
-
-@-moz-keyframes shadowFade {
-  0% {
-    box-shadow: inset 0px 0px 0px 0px $buttonhover;
-    color: #fff;
-  }
-  100% {
-    box-shadow: inset 0px 46px 0px 0px $buttonhover;
-    color: #fff;
-  }
-}
-
-@-moz-keyframes shadowFadeOut {
-  0% {
-    box-shadow: inset 0px 44px 0px 0px $buttonhover;
-    color: #fff;
-  }
-  100% {
-    box-shadow: inset 0px 0px 0px 0px $buttonhover;
-    color: #fff;
-  }
-}
-
-/*continued styling for input */
-.form input[type="checkbox"] {
-  display: none;
-}
   </style>
-
-</head>
-
 <body>
-  <?php include 'bases/menu.php'; ?>
+<!--menu-->
+<?php include 'bases/menu.php' ?>
+<div class="container">
+<div class="titulo">
 
-  <div class="container">
-
-<div class="row mt-5 mb-5">
- <div class="login">
-    <h1>Login</h1>
-
-    <form class="form" method="post" action="#">
-
-      <p class="field">
-        <input type="text" name="login" placeholder="E-mail" required/>
-        <i class="fa fa-user"></i>
-      </p>
-
-      <p class="field">
-        <input type="password" name="password" placeholder="Senha" required/>
-        <i class="fa fa-lock"></i>
-      </p>
-
-      <p class="submit"><input type="submit" name="sent" value="Entrar"></p>
-
-
-    </form>
-  </div>
-
-</div>
+<div class="imagem">
+<img class="img-fluid rounded" src="src/img/fotodoif.jpg" width="300px" height="200px" alt="">
 </div>
 
-   <?php include 'bases/rodape.php'; ?>
-
+<div class="caixa">
+  <div class="login">
+        <form action="php/bd_autenticação.php" method="post">
+        <h2>Login de Autenticação</h2>
+        <p>
+            <label for="usuario">Usuário:</label>
+            <input type="text" name="usuario" id="usuario">
+        </p>
+        <p>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </p>
+        <?php
+         if (isset($_GET['erro'])) {
+         echo "<p class='text-danger'>".$_GET['erro']."</p>";
+         } ?>
+        <p><input class="botao" type="submit" value="Entrar"></p>
+        </form>
+        </div>
+        </div>
+        
+        </div>
+</div>
+        </div>
+        </div>
+<!--rodape-->
+<?php include 'bases/rodape.php' ?>
 </body>
 
 </html>
