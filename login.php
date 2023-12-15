@@ -9,7 +9,7 @@
   text-align:center;
   font-family:Times, Times New Roman, serif ;
     color: black;
-    margin:0;
+    margin:70;
     padding:10px;
     box-sizing: border-box;
     scroll-padding-top: 4rem;
@@ -17,6 +17,8 @@
     list-style: none;
     text-decoration: none;
     background-size:20px;
+
+   
     }
 
 h2 {
@@ -36,7 +38,6 @@ form{
     background-color:#DCDCDC;
     margin:65px;
     margin-left:0;
-    
 }
 
 form input {
@@ -54,29 +55,39 @@ form input {
   font-weight: bold;
   border-radius: 20px;
 }
-
-.texto p
-{
+div.img{
+ 
+        display: inline-block;
+        font-size: 3vw;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+        float:right;
+        width: 100%;
   margin-top:50px;
-  text-align: center;
+  margin-left:50px;       
+
 }
-.imagem1{
-  margin-left:60px;
-  margin-top:90px;
+div.container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
 }
+
 
   </style>
 <body>
 <!--menu-->
 <?php include 'bases/menu.php' ?>
 <div class="container">
-<div class="informacoes">
+<div class="titulo">
 
-<div class="imagem1">
+<div class="imagem">
 <img class="img-fluid rounded" src="src/img/fotodoif.jpg" width="300px" height="200px" alt="">
 </div>
-<div class="texto">
-<div class="login">
+
+<div class="caixa">
+  <div class="login">
         <form action="php/bd_autenticação.php" method="post">
         <h2>Login de Autenticação</h2>
         <p>
@@ -93,12 +104,11 @@ form input {
          } ?>
         <p><input class="botao" type="submit" value="Entrar"></p>
         </form>
-
+        </div>
         </div>
         
         </div>
 </div>
-        </div>
         </div>
         </div>
 <!--rodape-->
