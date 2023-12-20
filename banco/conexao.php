@@ -2,10 +2,10 @@
 
 function conectar()
 {
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "bd_registro";
+$servidor = "localhost";
+$usuario = "root";
+$senha = "123";
+$banco = "codigo_bd";
 //$port = 3306
 
 // Create connection

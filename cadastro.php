@@ -20,7 +20,7 @@
         
         <h2>Cadastro de Usuário</h2>
 
-        <form action="../php/bd_registro.php" method="post">
+        <form action="php/bd_registro.php" method="post">
         <p>
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome">
