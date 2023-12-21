@@ -3,7 +3,39 @@
 
 <!--head-->
 <?php include 'bases/head.php' ?>
+<style type="text/css">
+      .botao{
+  text-align: center;
+  color:white;
+  background-color:rgb(0, 63, 0) ;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-left:70px;
+} 
+.informacoes{
 
+  margin-bottom:30px;
+  margin-top:30px;
+}
+.imagem{margin-left:30px;
+ 
+}
+.texto{
+  border-left:1px solid black;
+
+}
+
+form input{
+  display:inline;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color:lightgray ;
+ 
+    
+}
+    </style>
 <body>
 <!--menu-->
 <?php include 'bases/menu.php' ?>
@@ -34,7 +66,7 @@
             <input type="password" name="senha" id="senha">
         </p>
 
-        <p><input type="submit" value="Cadastrar"></p>
+        <p><input class="botao" type="submit" value="Cadastrar"></p>
         </form>
 
         </div>
