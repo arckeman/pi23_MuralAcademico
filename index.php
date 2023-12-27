@@ -63,7 +63,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                             <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do ancio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -87,7 +87,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                         <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -111,7 +111,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                         <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -135,7 +135,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                         <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -159,7 +159,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                         <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -184,7 +184,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                         <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -209,7 +209,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                         <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -234,7 +234,7 @@
                         <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                         <div class="content">
                         <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                             <br/>
                             <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
@@ -254,7 +254,7 @@
                     <img src="https://img.freepik.com/vetores-gratis/ilustracao-de-embaixador-de-design-plano-desenhado-a-mao_23-2149348099.jpg?w=740&t=st=1698325352~exp=1698325952~hmac=5d07b893a17c5fa53e52396695fe51c42ba5cc06c1485d1d724cc6f115c1fd37" alt="">
                     <div class="content">
                     <br/>
-                            <h2> Titulo do anuncio</h2>
+                            <h2> Título do anuncio</h2>
                         <br/>
                         <span><i class="bi bi-bookmarks"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
                             <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>

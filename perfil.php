@@ -11,14 +11,6 @@
 a{
     color:black;
 }
-.container{
-  border:2px solid black;
-  margin-left:60px;
-  margin-bottom:60px;
-  margin-right:60px;
-  background-color:#DCDCDC;
-  
-}
 h2{
   margin-left:60px;
   margin-top:40px;
@@ -34,7 +26,49 @@ img{
 h4{
   text-align:center;
 }
+.container
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, auto));
+  gap: 1.0rem;
+  margin-top: 40px;
+  padding: 20px;
+  padding-top: 1px;
+  border:2px solid black;
+  margin-left:60px;
+  margin-bottom:60px;
+  margin-right:60px;
+  background-color:#DCDCDC;
+}
 
+.container .box
+{
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  
+}
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
 </style>
 
 <link rel="stylesheet" type="text/css" href="perfil.css">
@@ -50,10 +84,7 @@ h4{
 
 
 
-<div class="row">
-    <div class="col-lg-4 col-md-6 col-12 mb-4">
-
-    <div class="col-lg-4 col-sm-6 portfolio-item">
+<div class="box">
   <div class="foto1">
     <div class="card h-100">
       <a href="curso_detalhes.html">
@@ -66,13 +97,14 @@ h4{
     </div>
   </div>
 </div>
+</div>
 
-  <div class="col-lg-4 col-sm-6 portfolio-item">
-  <div class="foto2">
+<div class="box">
+  <div class="foto1">
     <div class="card h-100">
       <a href="curso_detalhes.html">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
-      
+        
           <h4 >Gerenciar Núcleos</h4>
         
       </a>
@@ -80,39 +112,50 @@ h4{
     </div>
   </div>
 </div>
-
-  <div class="col-lg-4 col-sm-6 portfolio-item">
-  <div class="foto3">
-    <div class="card h-100">
-      <a href="p_areas.php">
-        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
-        <h4>  Gerenciar Áreas</h4>
-      </a>
-    </div>
-  </div>
 </div>
-
-  <div class="col-lg-4 col-sm-6 portfolio-item">
-  <div class="foto4">
-    <div class="card h-100">
-      <a href="edita_publico.php">
-        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
-        <h4> Gerenciar Públicos</h4>
-      </a>
-    </div>
-  </div>
-</div>
-
-  <div class="col-lg-4 col-sm-6 portfolio-item">
-  <div class="foto5">
+<div class="box">
+  <div class="foto1">
     <div class="card h-100">
       <a href="curso_detalhes.html">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
-        <h4> Gerenciar Usuários</h4>
+        
+          <h4 >Gerenciar Áreas</h4>
+        
       </a>
+
     </div>
   </div>
 </div>
+</div>
+<div class="box">
+  <div class="foto1">
+    <div class="card h-100">
+      <a href="curso_detalhes.html">
+        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
+        
+          <h4 >Gerenciar Públicos</h4>
+        
+      </a>
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="box">
+  <div class="foto1">
+    <div class="card h-100">
+      <a href="curso_detalhes.html">
+        <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
+        
+          <h4 >Gerenciar Usuários</h4>
+        
+      </a>
+
+    </div>
+  </div>
+</div>
+</div>
+
 
   </div>
   </div>
