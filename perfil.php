@@ -95,7 +95,7 @@ h4{
   <div class="col-lg-4 col-sm-6 portfolio-item">
   <div class="foto4">
     <div class="card h-100">
-      <a href="curso_detalhes.html">
+      <a href="edita_publico.php">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
         <h4> Gerenciar Públicos</h4>
       </a>
