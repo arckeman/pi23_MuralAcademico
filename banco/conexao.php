@@ -3,9 +3,9 @@
 function conectar()
 {
 $servidor = "localhost";
-$usuario = "root";
-$senha = "123";
-$banco = "codigo_bd";
+$usuario = "2023_info4_pi_mural_academico";
+$senha = "mural023";
+$banco = "2023_info4_pi_mural_academicoME";
 //$port = 3306
 
 // Create connection

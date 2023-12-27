@@ -1,6 +1,6 @@
 header
 {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     top: 0;
     right: 0;
@@ -40,7 +40,7 @@ header
   background-color:white;
   padding: 6px;
   width: 600%;
-  height: 900%;
+  height: 1100%;
   top:50px;
   margin-left:-230px;
   position:absolute;
@@ -92,7 +92,7 @@ input[type="checkbox"]:checked~nav{
 
 .principal1
 {
-  width: 75%;
+  width: 85%;
   align-items: center;
   margin:0 auto;
 }
@@ -230,7 +230,7 @@ input[type="checkbox"]:checked~nav{
 }
 .IFRN{
   padding: 20px;
-  width: 50%;
+  width: 33%;
   margin-left:20px;
   align-items: center;
 }
