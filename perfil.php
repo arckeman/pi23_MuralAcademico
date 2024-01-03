@@ -56,7 +56,7 @@ h4{
     <div class="col-lg-4 col-sm-6 portfolio-item">
   <div class="foto1">
     <div class="card h-100">
-      <a href="curso_detalhes.html">
+      <a href="meusdados.php">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
         
           <h4 >Meus Dados</h4>
@@ -70,7 +70,7 @@ h4{
   <div class="col-lg-4 col-sm-6 portfolio-item">
   <div class="foto2">
     <div class="card h-100">
-      <a href="curso_detalhes.html">
+      <a href="nucleos.php">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
       
           <h4 >Gerenciar Núcleos</h4>
@@ -84,7 +84,7 @@ h4{
   <div class="col-lg-4 col-sm-6 portfolio-item">
   <div class="foto3">
     <div class="card h-100">
-      <a href="p_areas.php">
+      <a href="area_crud.php">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
         <h4>  Gerenciar Áreas</h4>
       </a>
@@ -95,7 +95,7 @@ h4{
   <div class="col-lg-4 col-sm-6 portfolio-item">
   <div class="foto4">
     <div class="card h-100">
-      <a href="curso_detalhes.html">
+      <a href="publicos.php">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
         <h4> Gerenciar Públicos</h4>
       </a>
@@ -106,7 +106,7 @@ h4{
   <div class="col-lg-4 col-sm-6 portfolio-item">
   <div class="foto5">
     <div class="card h-100">
-      <a href="curso_detalhes.html">
+      <a href="usuarios.php">
         <img class="card-img-top" src="src/img/perfil1.png" alt="" widht="200px" height="100px">
         <h4> Gerenciar Usuários</h4>
       </a>
