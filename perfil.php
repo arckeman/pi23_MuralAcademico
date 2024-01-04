@@ -112,7 +112,7 @@ body {
     </div>
   </div>
 </div>
-<<<<<<< HEAD
+
 
   <div class="col-lg-4 col-sm-6 portfolio-item">
   <div class="foto3">
@@ -123,8 +123,7 @@ body {
       </a>
     </div>
   </div>
-=======
->>>>>>> 1f710621e88fa02ddc8a30f1338ba69ec164134d
+
 </div>
 <div class="box">
   <div class="foto1">

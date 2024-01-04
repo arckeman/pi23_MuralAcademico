@@ -11,19 +11,27 @@
   border-radius: 20px;
   margin-left:70px;
 } 
-.informacoes{
-
-  margin-bottom:30px;
+.informacoes1{ 
   margin-top:30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, auto));
+  gap: 1.5rem;
+  margin-top: 40px;
+  height: 100%;
+  border-style: solid;
+  border-color: green;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
 }
 .imagem{margin-left:30px;
  
 }
 .texto{
   border-left:1px solid black;
-
+  border-color: green;
 }
-
 form input{
   display:inline;
     text-align: center;
@@ -40,9 +48,9 @@ form input{
 <!--menu-->
 <?php include 'bases/menu.php' ?>
 
-<div class="principal1">
+<div class="cadlogin">
 
-        <div class="informacoes">
+        <div class="informacoes1">
 
         <div class="imagem">
         <img class="img-fluid rounded" src="src/img/fotodoif.jpg" width="75%" height="60%" alt="">
